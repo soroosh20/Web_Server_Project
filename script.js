@@ -44,6 +44,6 @@ app.post('/deleteNote/:id', function (req, res) {
 });
 
 //then we set our server port. This should always be at bottom.
-app.listen(80, function () {
-  console.log("NoteApp server is running at port 80...")
+app.listen(8080, function () {
+  console.log("NoteApp server is running at port 8080...")
 });
