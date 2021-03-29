@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 
 //We set up the route for the App. We first use the app.get option.
 app.get('/', function (req, res) {
-  res.render('notes', {
+  res.render('index', {
     note: note
   });
 });
